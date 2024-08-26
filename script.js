@@ -35,3 +35,13 @@ function desencriptar(textoDesEncriptado){
     } 
     return textoDesEncriptado;
 }
+
+document.getElementById("botonCopiar").addEventListener("click", function() {
+    const areatexto = document.getElementById("areaTexto").value;
+
+    navigator.clipboard.writeText(areatexto).then(function() {
+        alert("Texto añadido al portapapeles");
+        }).catch(function(error){
+            console.error("Error al copiar el texto")
+        });
+})

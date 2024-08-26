@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Encriptador</title>
 </head>
-<body>
+<body class="cuerpa">
     <header>
         <img class="logo" src="./imgs/alura-logo.png" alt="Logo de Alura" >
     </header>
-    <main>
+    <main class="todo">
         <section>
-            <textarea class="texto-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea class="texto-area" cols="30" rows="8" placeholder="Ingrese el texto aquí"></textarea>
             <div>
                 <h6 class="texto-minusculas-acentos">Solo letras minúsculas y sin acentos</h6>
             </div>
@@ -24,14 +24,14 @@
         </section>
 
         <section>
-            <textarea class="mensaje-salida" cols="20" rows="15"></textarea>
+            <textarea id="areaTexto" class="mensaje-salida" cols="20" rows="13"></textarea>
             <div>
-                <button class="boton_copiar">Copiar</button>
+                <button id="botonCopiar" class="boton_copiar">Copiar</button>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        
+    <footer class="pie">
+        <p>Desarrollado por J. García.</p>
     </footer>
 <script src = "./script.js"></script>
 </body>

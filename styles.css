@@ -79,12 +79,13 @@ main{
 .boton_copiar{
     color: #0a3871;
     border: 1px solid #0a3871;
+    background-color: aqua;
     border-radius: 24px;
     height: 67px;
     width: 336px;
     cursor: pointer;
-    margin-left: 111px;
-    margin-top: 660px;
+    margin-left: 103px;
+    margin-top: 560px;
     position: absolute;
     visibility: visible;
 }
@@ -95,7 +96,9 @@ main{
     padding: 20px;
 }
 
-.footer{
-    color: #0a3871;
+.pie{
     text-align: center;
+    padding: 24px;
+    color: black;
 }
+
